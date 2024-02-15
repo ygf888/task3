@@ -1,0 +1,4 @@
+replicate
+flask
+gunicorn
+google-generativeai
