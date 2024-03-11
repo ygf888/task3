@@ -28,6 +28,14 @@ def palm():
 @app.route("/mj",methods=["GET","POST"])
 def mj():
     return(render_template("mj.html"))
+    
+@app.route("/Music",methods=["GET","POST"])
+def Music():
+    return(render_template("Music.html"))
+    
+@app.route("/Vedio",methods=["GET","POST"])
+def Vedio():
+    return(render_template("Vedio.html"))
 
 @app.route("/result_palm",methods=["GET","POST"])
 def result_palm():
